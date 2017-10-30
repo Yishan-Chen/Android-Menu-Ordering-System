@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/RelativeLayoutHeight" >
+
+        <ImageView
+            android:id="@+id/beefNoodleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4sp"
+            android:layout_marginTop="5sp"/>
+           <!--  android:background="@drawable/beefnoodle" --> 
+
+        <TextView
+            android:id="@+id/beefNoodleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3sp"
+            android:layout_marginTop="6sp"
+            android:layout_toRightOf="@+id/beefNoodleView"
+            android:text="@string/beefNoodle"
+            android:textSize="@dimen/NameTextSize" />
+
+        <TextView
+            android:id="@+id/beefNoodleDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/beefNoodleText"
+            android:layout_marginLeft="3sp"
+            android:layout_toRightOf="@+id/beefNoodleView"
+            android:text="全场最低价"
+            android:textStyle="bold"
+            android:textSize="@dimen/RankTextSize" />
+
+        <TextView
+            android:id="@+id/beefNoodlePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/beefNoodleDesc"
+            android:layout_marginLeft="4sp"
+            android:layout_toRightOf="@+id/beefNoodleView"
+            android:text="¥12"
+            android:textColor="@color/red" />
+
+        <ImageView
+            android:id="@+id/AddbeefNoodle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="7sp"
+            android:background="#fffbfd"
+            android:onClick="onClick"
+            android:src="@drawable/add5" />
+
+        <EditText
+            android:id="@+id/beefnoodle_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/AddbeefNoodle"
+            android:background="#fff"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/beefNoodle_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7sp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/beefnoodle_count"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/remove4"
+            android:visibility="invisible" />
+    </RelativeLayout>
+    
+	 
+</LinearLayout>

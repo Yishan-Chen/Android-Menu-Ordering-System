@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/TableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:shrinkColumns="0"
+        android:stretchColumns="0"
+        android:showDividers = "middle" >
+
+        <TableRow
+            android:id="@+id/my_setting"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="2.0dip"
+            android:layout_marginRight="2.0dip"
+            android:paddingBottom="8.0dip"
+            android:paddingTop="8.0dip"
+            android:background="@drawable/layout_selector2"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:drawableLeft="@drawable/ic_setting"
+                android:layout_gravity="left|center_horizontal"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:text="@string/setting"
+                android:textSize="20.0sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="right"
+                android:gravity="center_vertical"
+                android:paddingRight="5.0dip"
+                android:src="@drawable/ic_arrow" />
+	</TableRow>
+			<ImageView 
+			    android:layout_marginTop="2sp"
+		        android:layout_width="fill_parent" 
+		        android:layout_height="1dp" 
+		        android:background="#c6bdba" />
+    <TableRow
+	       android:id="@+id/help"
+	       android:layout_width="fill_parent"
+	       android:layout_marginLeft="2.0dip"
+	       android:layout_marginRight="2.0dip"
+	       android:paddingBottom="8.0dip"
+	       android:paddingTop="8.0dip" 
+	       android:background="@drawable/layout_selector2"
+           android:clickable="true">
+
+	           <TextView
+	               android:layout_width="wrap_content"
+	               android:layout_height="fill_parent"
+	               android:drawableLeft="@drawable/ic_help"
+	               android:layout_gravity="left|center_horizontal"
+	               android:gravity="center_vertical"
+	               android:includeFontPadding="false"
+	               android:text="@string/help"
+	               android:textSize="20.0sp" />
+	
+	           <ImageView
+	               android:layout_width="wrap_content"
+	               android:layout_height="fill_parent"
+	               android:layout_gravity="right"
+	               android:gravity="center_vertical"
+	               android:paddingRight="5.0dip"
+	               android:src="@drawable/ic_arrow" />
+	     </TableRow>
+	     <ImageView 
+			    android:layout_marginTop="2sp"
+			    android:layout_marginBottom="20sp"
+		        android:layout_width="fill_parent" 
+		        android:layout_height="1dp" 
+		        android:background="#c6bdba" />
+         <TableRow
+	       android:id="@+id/logout"
+	       android:layout_width="fill_parent"
+	       android:layout_marginLeft="2.0dip"
+	       android:layout_marginRight="2.0dip"
+	       android:paddingBottom="8dip"
+	       android:paddingTop="8dip"
+	       android:background="#797979" >
+            	<TextView
+            	    android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+            	    android:layout_gravity="center"
+            	    android:layout_marginLeft="12sp"
+            	    android:text="@string/logout"
+            	    android:textSize="25.0sp"
+            	    android:textColor="#fff"/>
+         </TableRow>
+    </TableLayout>
+

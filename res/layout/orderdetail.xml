@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/orderLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+  <!--   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dip"
+        android:layout_marginTop="4dip"
+        android:gravity="center"
+        android:orientation="vertical" >  -->
+
+        <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="订单详情"
+            android:textSize="24dip"
+            android:textStyle="bold" >
+        </TextView> --> -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dip"
+            android:layout_marginTop="4dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="110sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip"
+                android:layout_gravity="left"
+                android:text="订购食品："
+                android:textSize="20dip"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/orderdetailTextView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text=""
+                android:textSize="20dip" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dip"
+            android:layout_marginTop="4dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip"
+                android:layout_gravity="left"
+                android:text="总价："
+                android:textSize="20dip"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/orderdetailTextView02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dip"
+            android:layout_marginTop="4dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip"
+                android:layout_gravity="left"
+                android:text="电话："
+                android:textSize="20dip"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/orderdetailTextView03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dip"
+            android:layout_marginTop="4dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip"
+                android:gravity="left"
+                android:text="地址："
+                android:textSize="20dip"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/orderdetailTextView04"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dip"
+            android:layout_marginTop="4dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip"
+                android:layout_gravity="left"
+                android:text="备注："
+                android:textSize="20dip"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/orderdetailTextView05"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dip"
+            android:layout_marginTop="4dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11dip"
+                android:layout_gravity="left"
+                android:text="状态："
+                android:textSize="20dip"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/orderdetailTextView06"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="20dip"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+        <Button
+            android:id="@+id/orderdetailDelete"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="删除"
+            android:textSize="20dip"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" >
+        </Button>
+
+</LinearLayout>

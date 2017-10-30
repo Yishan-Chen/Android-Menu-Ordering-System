@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stu.ordersystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/octopus"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.stu.ordersystem.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.stu.ordersystem.OrderDetailActivity"
+            android:label="@string/orderdetail">
+    	</activity>
+    	<activity
+            android:name="com.stu.ordersystem.Help"
+            android:label="@string/help">
+    	</activity>
+    	<activity
+            android:name="com.stu.ordersystem.Setting"
+            android:label="@string/setting">
+    	</activity>
+    	<activity
+            android:name="com.stu.linkedlistview.Waimai"
+            android:label="@string/waimai">
+    	</activity>
+    	<activity
+            android:name="com.stu.linkedlistview.CheckOut"
+            android:label="@string/checkout">
+    	</activity>
+    	<!-- <activity
+            android:name="com.stu.ordersystem.MainActivity"
+            android:label="@string/app_name">
+    	</activity> -->
+    	<activity
+            android:name="com.stu.linkedlistview.Info"
+            android:label="@string/app_name">
+    	</activity>  
+    </application>  
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>

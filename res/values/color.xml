@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<drawable name="nomalColor">#ff64665a</drawable>
+<drawable name="pressColor">#ff992211</drawable>
+<color name="grey">#ffa9b7b7</color>
+<color name="darkgrey">#ff282727</color>
+<color name="red">#ffff0000</color>
+<color name="lightgrey">#ffe1dddf</color>
+<color name="transparent">#55ff</color> 
+<color name="titlecolor">#4b99CCFF</color>
+<color name="blue">#FF0066FF</color>
+<color name="green">#cbe894</color>    
+<color name="lightblue">#FF66CCFF</color>
+<color name="titleblue">#15a0f5</color>
+<color name="white">#ffffffff</color>
+<color name="titlered">#ff992211</color>
+<color name="originalred">#ffff0066</color>
+<color name="superlightblue">#ffdbecec</color>
+<color name="orange">#ffffa555</color>
+<color name="tinyred">#ffcb3435</color>
+</resources>

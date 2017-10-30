@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:background="#ffa555">
+
+        <ImageView
+            android:id="@+id/stupic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="21dp"
+            android:src="@drawable/octopus3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="90dp"
+            android:text="章记小炒"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+    </RelativeLayout>
+	
+    <LinearLayout
+        android:id="@+id/products"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="60sp" >
+
+        <ListView
+            android:id="@+id/listview_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#96e9e7e7" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/listview_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="#ffffff" >
+        </ListView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:alpha="0.5"
+            android:background="#242424"/>
+
+        <ImageView
+            android:id="@+id/iv_add_cart"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/shoppingcar3" />
+
+        <com.stu.linkedlistview.BadgeView
+            android:id="@+id/tv_count_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="总价:"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+        
+        <com.stu.linkedlistview.BadgeView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:text="0"
+            android:textColor="@color/grey"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/checkout"
+            android:layout_width="80sp"
+            android:layout_height="60sp"
+            android:layout_gravity="center|right"
+            android:background="#ffa555"
+            android:text="去结算"
+            android:textColor="#fff"
+            android:visibility="visible"
+            />
+    </FrameLayout>
+
+</RelativeLayout>

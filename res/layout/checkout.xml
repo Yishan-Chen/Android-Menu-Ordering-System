@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:background="@color/titleblue"
+        android:gravity="center"
+        android:text="确认订单"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/people"
+        android:layout_below="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="36sp"
+        android:background="@drawable/item_bar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 下 订 人 :   "
+            android:layout_gravity="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/telephone"
+        android:layout_below="@+id/people"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_bar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系电话:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/teleEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/addres"
+        android:layout_below="@+id/telephone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_bar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下订地址:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/addressEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/descri"
+        android:layout_below="@+id/addres"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_bar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单备注:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/descriEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp" />
+    </LinearLayout>
+	
+	<TextView
+	    android:id="@+id/div"
+	    android:layout_below="@+id/descri" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="20sp"/>
+	    "
+    <LinearLayout
+        android:id="@+id/list"
+        android:layout_below="@+id/div"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical" >
+		<TextView
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="订购清单"
+		    android:gravity="center"
+		    android:textSize="20sp"
+		    android:background="#fff"/>
+		<ImageView
+		    android:layout_width="fill_parent"
+		    android:layout_height="1sp"
+		    android:background="@color/lightgrey"/>
+        <ListView
+            android:id="@+id/itemlist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+	
+    <TextView
+	    android:layout_below="@+id/list" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="20sp"/>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45sp"
+        android:background="#666666"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/totalprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_marginTop="10sp"
+            android:text="总计:"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/orderbutton"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_alignParentRight="true"
+            android:background="@color/titleblue"
+            android:text="确认下单"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

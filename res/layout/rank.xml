@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/titleblue"
+        android:gravity="center"
+        android:text="订单评价"
+        android:textColor="#fff"
+        android:textSize="25dip" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/emoji" />
+    <RatingBar 
+        android:id="@+id/Irating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:numStars="5"
+        android:rating="3"
+        android:stepSize="0.5"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="留言建议："
+        android:textSize="23sp"/>
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="110sp"
+        android:background="@color/lightgrey" 
+        android:layout_marginTop="2sp"
+        />
+    <Button
+        android:id="@+id/mesgButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击提交"
+        android:textSize="20sp"
+        android:layout_marginTop="5sp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

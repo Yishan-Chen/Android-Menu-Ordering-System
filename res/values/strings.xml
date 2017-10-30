@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">汕大吃货</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">登    录</string>
+    <string name="clear">清    空</string>
+    <string name="enroll">注    册</string>
+    <string name="quit">退    出</string>
+    <string name="userName">账    号: </string>
+    <string name="realname">姓    名: </string>
+    <string name="password">密    码: </string>
+    <string name="password2">确认密码: </string>
+    <string name="gender">性    别:   </string>
+    <string name="female">女</string>
+    <string name="male">男</string>
+    <string name="telephone">电    话: </string>
+    <string name="address">地    址: </string>
+    <string name="enter">确    定</string>
+    <string name="reset">重    置</string>
+    <string name="back">返    回</string>
+    <string name="pwdhint">请输入至少输入8位数字</string>
+    <string name="pwdhint2">再次确定输入的密码</string>
+    <string name="telehint">请输入11位手机号</string>
+    <string name="rnhint">请输入真实姓名</string>
+    <string name="orderdetail">订单详情</string>
+    <string name="logout">注销</string>
+    <string name="help">帮助</string>
+    <string name="setting">设置</string>
+    <string name="beefNoodle">牛肉炒面</string>
+    <string name="beefRiceFlour">牛肉炒米粉</string>
+    <string name="beefSoup">牛肉粿条汤</string>
+    <string name="cole">可乐</string>
+    <string name="xuebi">雪碧</string>
+    <string name="snowbeer">雪花啤酒</string>
+    <string name="checkout">下单</string>
+    <string name="waimai">&#xe62d;</string>
+    <string name="diancan">&#xe624;</string>
+    <string name="order">&#xe622;</string>
+    <string name="my">&#xe660;</string>
+    <string name="presscolor">0xffcccccc</string>
+</resources>
